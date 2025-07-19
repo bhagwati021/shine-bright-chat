@@ -4,7 +4,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   const openWhatsApp = () => {
-    const message = "Hi! I'm interested in your cleaning services. Can you provide more information?";
+    const message = "Hi! I'm interested in SK Facility cleaning services. Can you provide more information?";
     const phoneNumber = "+1234567890"; // Replace with your WhatsApp business number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-hero" />
       
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto mt-20">
         <div className="animate-fade-in">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Star className="w-6 h-6 text-yellow-400 fill-current" />
@@ -32,9 +32,9 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Sparkling Clean
+            SK Facility
             <span className="bg-gradient-accent bg-clip-text text-transparent block">
-              Every Time
+              Professional Cleaning
             </span>
           </h1>
           
